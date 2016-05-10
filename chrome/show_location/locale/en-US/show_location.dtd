@@ -1,0 +1,90 @@
+<!ENTITY SL.status.label "Show Location">
+<!ENTITY SL.status.drag.tooltip "Drag and drop to move Show Location, close Options to hide this icon">
+<!ENTITY SL.options "Show Location Options">
+<!ENTITY SL.popup.options "Options">
+<!ENTITY SL.show_myip.label "Show My IP">
+<!ENTITY SL.showiptool.label "Show in IP Query Tool">
+<!ENTITY SL.showmap.label "Show in Google Maps">
+<!ENTITY SL.whois_host.label "Whois.sc Host">
+<!ENTITY SL.whois_ip.label "Whois.sc IP">
+<!ENTITY SL.options.defaults "Defaults">
+<!ENTITY SL.options.database.settings "Database Settings">
+<!ENTITY SL.options.db_path_button.label "Browse">
+<!ENTITY SL.options.db_CZ.label "ChunZhen">
+<!ENTITY SL.options.CZ_type.online.label "Online 1">
+<!ENTITY SL.options.CZ_type.online.tooltip "Server in China">
+<!ENTITY SL.options.CZ_type.online2.label "Online 2">
+<!ENTITY SL.options.CZ_type.online2.tooltip "Server in US">
+<!ENTITY SL.options.CZ_type.GB2312.label "GB2312">
+<!ENTITY SL.options.CZ_type.BIG5.label "BIG5">
+<!ENTITY SL.options.GEO_type.online.label "Online">
+<!ENTITY SL.options.GEO_type.online.tooltip "Server in US">
+<!ENTITY SL.options.GEO_type.local.label "Local">
+<!ENTITY SL.options.db_GEO.label "GeoLiteCity">
+<!ENTITY SL.options.style.settings "Style Settings">
+<!ENTITY SL.options.width "Width:">
+<!ENTITY SL.options.width.to "to">
+<!ENTITY SL.options.position "Position:">
+<!ENTITY SL.options.position.drag "Drag">
+<!ENTITY SL.options.position.drag.tooltip "Drag the movement icon, close Options to hide it">
+<!ENTITY SL.options.position.urlbar "URL bar">
+<!ENTITY SL.options.position.urlbar.tooltip "Set to URL bar, hide when select url">
+<!ENTITY SL.options.position.none "Hiding">
+<!ENTITY SL.options.position.none.tooltip "Do not display Show Location">
+<!ENTITY SL.options.color "Color:">
+<!ENTITY SL.options.set.style "Set Style:">
+<!ENTITY SL.options.style.IP0 "Server IP">
+<!ENTITY SL.options.style.ST0 "Server Type">
+<!ENTITY SL.options.style.TM0 "Server Time">
+<!ENTITY SL.options.style.CZ0 "ChunZhen">
+<!ENTITY SL.options.style.G00 "Continent Code">
+<!ENTITY SL.options.style.G01 "Time Zone">
+<!ENTITY SL.options.style.G02 "Country Code">
+<!ENTITY SL.options.style.G03 "Country Code 3">
+<!ENTITY SL.options.style.G04 "Country/Region">
+<!ENTITY SL.options.style.G05 "Latitude">
+<!ENTITY SL.options.style.G06 "Longitude">
+<!ENTITY SL.options.style.G07 "City">
+<!ENTITY SL.options.style.G08 "Region Code">
+<!ENTITY SL.options.style.G09 "Region Name">
+<!ENTITY SL.options.style.G10 "Postal Code">
+<!ENTITY SL.options.style.G11 "Area Code">
+<!ENTITY SL.options.style.G12 "Metro Code">
+<!ENTITY SL.options.style.FLG "National Flag">
+<!ENTITY SL.options.style.AFL "Address Bar Flag">
+<!ENTITY SL.options.style.AFL.tooltip "Show national flag in address bar">
+<!ENTITY SL.options.tooltip "Enable Tooltip:">
+<!ENTITY SL.options.add "Add">
+<!ENTITY SL.options.del "Delete">
+<!ENTITY SL.options.up "Move Up">
+<!ENTITY SL.options.down "Move Down">
+<!ENTITY SL.iptool.label "IP Query Tool">
+<!ENTITY SL.iptool.tooltip "Show the details of server location">
+<!ENTITY SL.maptool.label "Google Maps Tool">
+<!ENTITY SL.maptool.tooltip "Show location in Google maps">
+<!ENTITY SL.iptool.ip "IP:">
+<!ENTITY SL.search "Search">
+<!ENTITY SL.iptool.showmap "Show Map">
+<!ENTITY SL.iptool.close "Close">
+<!ENTITY SL.maptool.print "Print">
+<!ENTITY SL.maptool.lang "Language:">
+<!ENTITY SL.maptool.default "Default">
+<!ENTITY SL.maptool.english "English">
+<!ENTITY SL.maptool.chinese "Chinese">
+<!ENTITY SL.maptool.address "Address:">
+<!ENTITY SL.maptool.enable_googlebar "Enable GoogleBar">
+<!ENTITY SL.maptool.search_result_null "Address not found">
+<!ENTITY SL.iptool.mainkey "Q">
+<!ENTITY SL.iptool.accesskey "Q">
+<!ENTITY SL.popup.options.accesskey "O">
+<!ENTITY SL.show_myip.accesskey "I">
+<!ENTITY SL.maptool.mainkey "M">
+<!ENTITY SL.maptool.accesskey "M">
+<!ENTITY SL.showmap.accesskey "G">
+<!ENTITY SL.whois_host.accesskey "H">
+<!ENTITY SL.whois_ip.accesskey "W">
+<!ENTITY SL.popup_local.accesskey "P">
+<!ENTITY SL.popup_ip.accesskey "C">
+<!ENTITY SL.print.accesskey "P">
+<!ENTITY SL.search.accesskey "S">
+<!ENTITY SL.iptool.close.accesskey "C">

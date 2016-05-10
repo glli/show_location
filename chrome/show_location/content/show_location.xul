@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://show_location/skin/show_location.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://show_location/locale/show_location.dtd">
+<overlay id="show_location"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="application/x-javascript" src="show_location.js"/>
+<script type="application/x-javascript" src="show_location_drag.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsDragAndDrop.js"/>
+<script type="application/x-javascript" src="chrome://global/content/nsTransferable.js"/>
+
+<window id="main-window">
+	<!-- align="center" will not stretch images -->
+	<hbox id="show_location_statusbox" align="center" hidden="true">
+		<image id="show_location_drag_icon" hidden="true" tooltiptext="&SL.status.drag.tooltip;"
+			ondraggesture="nsDragAndDrop.startDrag(event, sl_drag_observer);"/>
+		<hbox id="show_location_status" onclick="if(event.button==0) { if (this.parentNode.parentNode.id=='urlbar-icons') document.getElementById('urlbar').select(); } else if (event.button==1)
+			window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"
+			context="show_location_popup" align="center">
+			<label id="show_location_text" value="&SL.status.label;" crop="right" flex="1"
+				onclick="if (event.button==2) sl_status_obj.set_popup(this.pos);"
+				ondblclick="sl_status_obj.open_maptool(1);"/>
+			<label hidden="true" crop="right" flex="1" onclick="if (event.button==2) sl_status_obj.set_popup(this.pos);"
+				ondblclick="sl_status_obj.open_maptool(1);"/>
+			<label hidden="true" crop="right" flex="1" onclick="if (event.button==2) sl_status_obj.set_popup(this.pos);"
+				ondblclick="sl_status_obj.open_maptool(1);"/>
+			<label hidden="true" crop="right" flex="1" onclick="if (event.button==2) sl_status_obj.set_popup(this.pos);"
+				ondblclick="sl_status_obj.open_maptool(1);"/>
+			<label hidden="true" crop="right" flex="1" onclick="if (event.button==2) sl_status_obj.set_popup(this.pos);"
+				ondblclick="sl_status_obj.open_maptool(1);"/>
+			<image id="show_location_icon" hidden="true" onclick="if (event.button==2) sl_status_obj.set_popup('icon');"
+				ondblclick="sl_status_obj.open_iptool(1);"/>
+		</hbox>
+	</hbox>
+	
+	<statusbarpanel id="show_location_statusbar" hidden="true"/>
+	<toolbaritem id="show_location_toolbar"/>
+	<menupopup id="show_location_popup" position="at_pointer">
+		<menuitem label="&SL.iptool.label;" accesskey="&SL.iptool.accesskey;" oncommand="sl_status_obj.open_iptool(0);"/>
+		<menuitem label="&SL.maptool.label;" accesskey="&SL.maptool.accesskey;" oncommand="sl_status_obj.open_maptool(0);"/>
+		<menuitem label="&SL.popup.options;" accesskey="&SL.popup.options.accesskey;"
+			oncommand="window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"/>
+		<menuitem label="&SL.show_myip.label;" accesskey="&SL.show_myip.accesskey;" oncommand="sl_status_obj.show_myip(); sl_status_obj.copy2clip('myip');"/>
+
+		<!-- The following are hidden items -->
+		<menuseparator hidden="true"/>
+		<menuitem label="&SL.showmap.label;" accesskey="&SL.showmap.accesskey;" hidden="true"
+			oncommand="sl_status_obj.open_maptool(1);"/>
+		<menuitem label="&SL.whois_host.label;" accesskey="&SL.whois_host.accesskey;" hidden="true"
+			oncommand="sl_status_obj.whois('host');"/>
+		<menuitem label="&SL.whois_ip.label;" accesskey="&SL.whois_ip.accesskey;" hidden="true"
+			oncommand="sl_status_obj.whois('ip');"/>
+		<menuitem accesskey="&SL.popup_local.accesskey;" oncommand="sl_status_obj.copy2clip('local');" hidden="true"/>
+		<menuitem accesskey="&SL.popup_ip.accesskey;" oncommand="sl_status_obj.copy2clip('ip');" hidden="true"/>
+	</menupopup>
+
+	<tooltip id="show_location_tooltip" noautohide="true">
+		<label id="show_location_tooltip_text" crop="right" flex="1"/>
+		<label crop="right" flex="1"/>
+		<label crop="right" flex="1"/>
+		<label crop="right" flex="1"/>
+		<label crop="right" flex="1"/>
+		<image id="show_location_tooltip_icon"/>
+	</tooltip>
+	
+	<box id="addr_flag_box" width="18" height="11" pack="center" hidden="true"
+		onclick="if (event.button==1) window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');">
+		<image id="addr_flag" onclick="if (event.button==2) sl_status_obj.set_popup('icon');" ondblclick="sl_status_obj.open_iptool(1);" context="show_location_popup"/>
+	</box>
+</window>
+
+	<keyset id="mainKeyset">
+		<key id="show_location_iptool_key" key="&SL.iptool.mainkey;" oncommand="sl_status_obj.open_iptool(1);" modifiers="accel,shift"/>
+		<key id="show_location_maptool_key" key="&SL.maptool.mainkey;" oncommand="sl_status_obj.open_maptool(1);" modifiers="accel,shift"/>
+	</keyset>
+
+	<menupopup id="menu_ToolsPopup">
+		<menuitem insertbefore="devToolsSeparator" id="show_location_toolmenu_iptool"
+			label="&SL.iptool.label;" accesskey="&SL.iptool.accesskey;" key="show_location_iptool_key"
+			oncommand="sl_status_obj.open_iptool(1);" onclick="if (event.button==1)
+			window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"/>
+		<menuitem insertbefore="devToolsSeparator" id="show_location_toolmenu_maptool"
+			label="&SL.maptool.label;" accesskey="&SL.maptool.accesskey;" key="show_location_maptool_key"
+			oncommand="sl_status_obj.open_maptool(1);" onclick="if (event.button==1)
+			window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"/>
+	</menupopup>
+	
+ 	<popup id="contentAreaContextMenu">
+ 		<menuitem insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink"
+			id="show_location_rightclick_showiptool" label="&SL.showiptool.label;"
+			accesskey="&SL.iptool.accesskey;" oncommand="sl_status_obj.open_iptool(2);"/>
+		<menuitem insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink"
+			id="show_location_rightclick_showmap" label="&SL.showmap.label;"
+			accesskey="&SL.showmap.accesskey;" oncommand="sl_status_obj.open_maptool(2);"/>
+	</popup>
+	
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton	id="show_location_iptool_button"  label="&SL.iptool.label;" class="toolbarbutton-1"
+			onclick="if (event.button==0) sl_status_obj.open_iptool(1); else if (event.button==1)
+			window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"
+			tooltiptext="&SL.iptool.tooltip;"/>
+		<toolbarbutton	id="show_location_maptool_button"  label="&SL.maptool.label;" class="toolbarbutton-1"
+			onclick="if (event.button==0) sl_status_obj.open_maptool(1); else if (event.button==1)
+			window.open('chrome://show_location/content/show_location_prefs.xul', 'sl_prefs', 'chrome,centerscreen');"
+			tooltiptext="&SL.maptool.tooltip;"/>
+	</toolbarpalette>
+</overlay>

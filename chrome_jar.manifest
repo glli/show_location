@@ -1,0 +1,16 @@
+content	show_location	jar:chrome/show_location.jar!/content/
+skin	show_location	classic/1.0	jar:chrome/show_location.jar!/skin/classic/show_location/
+style	chrome://global/content/customizeToolbar.xul	chrome://show_location/skin/show_location.css
+
+locale	show_location	en-US	jar:chrome/show_location.jar!/locale/en-US/
+locale	show_location	zh-CN	jar:chrome/show_location.jar!/locale/zh-CN/
+
+overlay	chrome://browser/content/browser.xul   chrome://show_location/content/show_location.xul
+
+interfaces components/localsearch.xpt
+component {2537e282-6d25-4ccc-903e-272d66eec763} components/localsearch.js
+contract @show_location.org/localsearh;1 {2537e282-6d25-4ccc-903e-272d66eec763}
+resource LocalSearchLib components/localsearch.dll ABI=WINNT_x86-msvc
+resource LocalSearchLib components/localsearch.so ABI=Linux_x86-gcc3
+resource LocalSearchLib components/localsearch_x64.dll ABI=WINNT_x86_64-msvc
+resource LocalSearchLib components/localsearch_x64.so ABI=Linux_x86_64-gcc3

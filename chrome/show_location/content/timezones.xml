@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE timezones [<!ATTLIST zone id ID #REQUIRED>]>
+<!--This file contains only part of the world time zones needed by Show Location.-->
+<!--For the start and end of daylight saving times, M means month, W means week and D means day.-->
+<!--DST may change every year for different time zones, if changed, you have to edit it by yourself to correct the time.-->
+<timezones version="2011n-1" xmlns="http://www.show_location.org">
+	<zone id="Africa/Abidjan">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Accra">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Addis_Ababa">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Algiers">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Asmera">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Bamako">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Bangui">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Banjul">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Bissau">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Blantyre">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Brazzaville">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Bujumbura">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Cairo">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Casablanca">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Conakry">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Dakar">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Dar_es_Salaam">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Djibouti">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/El_Aaiun">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Freetown">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Gaborone">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Harare">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Johannesburg">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Kampala">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Khartoum">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Kigali">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Lagos">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Libreville">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Lome">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Luanda">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Lusaka">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Malabo">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Maputo">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Maseru">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Mbabane">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Mogadishu">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Monrovia">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Nairobi">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Africa/Ndjamena">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Niamey">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Nouakchott">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Ouagadougou">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Porto-Novo">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Sao_Tome">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Africa/Tripoli">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Africa/Tunis">
+		<st_offset>+01:00</st_offset>
+	</zone>
+	<zone id="Africa/Windhoek">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M09W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Anchorage">
+		<st_offset>-09:00</st_offset>
+		<dst_offset>-08:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Anguilla">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Antigua">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Aruba">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Asuncion">
+		<st_offset>-04:00</st_offset>
+		<dst_offset>-03:00</dst_offset>
+		<dst_start>M10W+1D0T00:00</dst_start>
+		<dst_end>M04W+2D0T00:00</dst_end>
+	</zone>
+	<zone id="America/Barbados">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Belize">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Bogota">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Caracas">
+		<st_offset>-04:30</st_offset>
+	</zone>
+	<zone id="America/Cayenne">
+		<st_offset>-03:00</st_offset>
+	</zone>
+	<zone id="America/Cayman">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Chicago">
+		<st_offset>-06:00</st_offset>
+		<dst_offset>-05:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Chihuahua">
+		<st_offset>-07:00</st_offset>
+		<dst_offset>-06:00</dst_offset>
+		<dst_start>M04W+1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Costa_Rica">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Curacao">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Denver">
+		<st_offset>-07:00</st_offset>
+		<dst_offset>-06:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Dominica">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Edmonton">
+		<st_offset>-07:00</st_offset>
+		<dst_offset>-06:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/El_Salvador">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Godthab">
+		<st_offset>-03:00</st_offset>
+		<dst_offset>-02:00</dst_offset>
+		<dst_start>M03W-2D6T22:00</dst_start>
+		<dst_end>M10W-1D6T23:00</dst_end>
+	</zone>
+	<zone id="America/Grand_Turk">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Grenada">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Guadeloupe">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Guatemala">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Guayaquil">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Guyana">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Halifax">
+		<st_offset>-04:00</st_offset>
+		<dst_offset>-03:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Havana">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T00:00</dst_start>
+		<dst_end>M10W-1D0T01:00</dst_end>
+	</zone>
+	<zone id="America/Indianapolis">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Jamaica">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/La_Paz">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Lima">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Los_Angeles">
+		<st_offset>-08:00</st_offset>
+		<dst_offset>-07:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Managua">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Marigot">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Martinique">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Mendoza">
+		<st_offset>-03:00</st_offset>
+	</zone>
+	<zone id="America/Miquelon">
+		<st_offset>-03:00</st_offset>
+		<dst_offset>-02:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Montevideo">
+		<st_offset>-03:00</st_offset>
+		<dst_offset>-02:00</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M03W+2D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Montreal">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Montserrat">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Nassau">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/New_York">
+		<st_offset>-05:00</st_offset>
+		<dst_offset>-04:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Panama">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Paramaribo">
+		<st_offset>-03:00</st_offset>
+	</zone>
+	<zone id="America/Phoenix">
+		<st_offset>-07:00</st_offset>
+	</zone>
+	<zone id="America/Port_of_Spain">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Port-au-Prince">
+		<st_offset>-05:00</st_offset>
+	</zone>
+	<zone id="America/Puerto_Rico">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Rainy_River">
+		<st_offset>-06:00</st_offset>
+		<dst_offset>-05:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Rankin_Inlet">
+		<st_offset>-06:00</st_offset>
+		<dst_offset>-05:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Regina">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Santo_Domingo">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/St_Barthelemy">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/St_Johns">
+		<st_offset>-03:30</st_offset>
+		<dst_offset>-02:30</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/St_Kitts">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/St_Lucia">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/St_Thomas">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/St_Vincent">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Tegucigalpa">
+		<st_offset>-06:00</st_offset>
+	</zone>
+	<zone id="America/Tortola">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="America/Vancouver">
+		<st_offset>-08:00</st_offset>
+		<dst_offset>-07:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Whitehorse">
+		<st_offset>-08:00</st_offset>
+		<dst_offset>-07:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Winnipeg">
+		<st_offset>-06:00</st_offset>
+		<dst_offset>-05:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="America/Yellowknife">
+		<st_offset>-07:00</st_offset>
+		<dst_offset>-06:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="Arctic/Longyearbyen">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Asia/Aden">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Almaty">
+		<st_offset>+06:00</st_offset>
+	</zone>
+	<zone id="Asia/Amman">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D5T00:00</dst_start>
+		<dst_end>M10W-1D5T01:00</dst_end>
+	</zone>
+	<zone id="Asia/Ashgabat">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Asia/Baghdad">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Bahrain">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Baku">
+		<st_offset>+04:00</st_offset>
+		<dst_offset>+05:00</dst_offset>
+		<dst_start>M03W-1D0T04:00</dst_start>
+		<dst_end>M10W-1D0T05:00</dst_end>
+	</zone>
+	<zone id="Asia/Bangkok">
+		<st_offset>+07:00</st_offset>
+	</zone>
+	<zone id="Asia/Beirut">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T00:00</dst_start>
+		<dst_end>M10W-1D0T00:00</dst_end>
+	</zone>
+	<zone id="Asia/Bishkek">
+		<st_offset>+06:00</st_offset>
+	</zone>
+	<zone id="Asia/Brunei">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Calcutta">
+		<st_offset>+05:30</st_offset>
+	</zone>
+	<zone id="Asia/Choibalsan">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Chongqing">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Colombo">
+		<st_offset>+05:30</st_offset>
+	</zone>
+	<zone id="Asia/Damascus">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M04W+1D5T00:00</dst_start>
+		<dst_end>M10W-1D5T00:00</dst_end>
+	</zone>
+	<zone id="Asia/Dhaka">
+		<st_offset>+06:00</st_offset>
+	</zone>
+	<zone id="Asia/Dubai">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Asia/Dushanbe">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Asia/Gaza">
+		<st_offset>+02:00</st_offset>
+	</zone>
+	<zone id="Asia/Hong_Kong">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Istanbul">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Asia/Jakarta">
+		<st_offset>+07:00</st_offset>
+	</zone>
+	<zone id="Asia/Jerusalem">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D5T02:00</dst_start>
+		<dst_end>M09W-2D0T02:00</dst_end>
+	</zone>
+	<zone id="Asia/Kabul">
+		<st_offset>+04:30</st_offset>
+	</zone>
+	<zone id="Asia/Karachi">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Asia/Katmandu">
+		<st_offset>+05:45</st_offset>
+	</zone>
+	<zone id="Asia/Kuwait">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Macao">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Manila">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Muscat">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Asia/Nicosia">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Asia/Phnom_Penh">
+		<st_offset>+07:00</st_offset>
+	</zone>
+	<zone id="Asia/Pyongyang">
+		<st_offset>+09:00</st_offset>
+	</zone>
+	<zone id="Asia/Qatar">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Rangoon">
+		<st_offset>+06:30</st_offset>
+	</zone>
+	<zone id="Asia/Riyadh">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Asia/Seoul">
+		<st_offset>+09:00</st_offset>
+	</zone>
+	<zone id="Asia/Singapore">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Taipei">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Asia/Tashkent">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Asia/Tbilisi">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Asia/Tehran">
+		<st_offset>+03:30</st_offset>
+		<dst_offset>+04:30</dst_offset>
+		<dst_start>M03W-2D3T00:00</dst_start>
+		<dst_end>M09W-2D5T00:00</dst_end>
+	</zone>
+	<zone id="Asia/Thimphu">
+		<st_offset>+06:00</st_offset>
+	</zone>
+	<zone id="Asia/Tokyo">
+		<st_offset>+09:00</st_offset>
+	</zone>
+	<zone id="Asia/Vientiane">
+		<st_offset>+07:00</st_offset>
+	</zone>
+	<zone id="Asia/Yerevan">
+		<st_offset>+04:00</st_offset>
+		<dst_offset>+05:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Atlantic/Azores">
+		<st_offset>-01:00</st_offset>
+		<dst_offset>+00:00</dst_offset>
+		<dst_start>M03W-1D0T00:00</dst_start>
+		<dst_end>M10W-1D0T01:00</dst_end>
+	</zone>
+	<zone id="Atlantic/Bermuda">
+		<st_offset>-04:00</st_offset>
+		<dst_offset>-03:00</dst_offset>
+		<dst_start>M03W+2D0T02:00</dst_start>
+		<dst_end>M11W+1D0T02:00</dst_end>
+	</zone>
+	<zone id="Atlantic/Cape_Verde">
+		<st_offset>-01:00</st_offset>
+	</zone>
+	<zone id="Atlantic/Faeroe">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Atlantic/Reykjavik">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Atlantic/South_Georgia">
+		<st_offset>-02:00</st_offset>
+	</zone>
+	<zone id="Atlantic/St_Helena">
+		<st_offset>+00:00</st_offset>
+	</zone>
+	<zone id="Atlantic/Stanley">
+		<st_offset>-04:00</st_offset>
+		<dst_offset>-03:00</dst_offset>
+		<dst_start>M09W+1D0T02:00</dst_start>
+		<dst_end>M04W+3D0T02:00</dst_end>
+	</zone>
+	<zone id="Australia/Canberra">
+		<st_offset>+10:00</st_offset>
+		<dst_offset>+11:00</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Australia/North">
+		<st_offset>+09:30</st_offset>
+	</zone>
+	<zone id="Australia/NSW">
+		<st_offset>+10:00</st_offset>
+		<dst_offset>+11:00</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Australia/Queensland">
+		<st_offset>+10:00</st_offset>
+	</zone>
+	<zone id="Australia/South">
+		<st_offset>+09:30</st_offset>
+		<dst_offset>+10:30</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Australia/Tasmania">
+		<st_offset>+10:00</st_offset>
+		<dst_offset>+11:00</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Australia/Victoria">
+		<st_offset>+10:00</st_offset>
+		<dst_offset>+11:00</dst_offset>
+		<dst_start>M10W+1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Australia/West">
+		<st_offset>+08:00</st_offset>
+	</zone>
+	<zone id="Brazil/Acre">
+		<st_offset>-04:00</st_offset>
+	</zone>
+	<zone id="Chile/Continental">
+		<st_offset>-04:00</st_offset>
+		<dst_offset>-03:00</dst_offset>
+		<dst_start>M10W+2D0T00:00</dst_start>
+		<dst_end>M03W+2D0T00:00</dst_end>
+	</zone>
+	<zone id="Europe/Amsterdam">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Andorra">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Athens">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Belgrade">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Berlin">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Bratislava">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Brussels">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Bucharest">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Budapest">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Chisinau">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Copenhagen">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Dublin">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Europe/Gibraltar">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Guernsey">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Europe/Helsinki">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Isle_of_Man">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Europe/Jersey">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Europe/Kiev">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Ljubljana">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/London">
+		<st_offset>+00:00</st_offset>
+		<dst_offset>+01:00</dst_offset>
+		<dst_start>M03W-1D0T01:00</dst_start>
+		<dst_end>M10W-1D0T02:00</dst_end>
+	</zone>
+	<zone id="Europe/Luxembourg">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Madrid">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Malta">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Mariehamn">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Minsk">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Europe/Monaco">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Moscow">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Europe/Oslo">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Paris">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Podgorica">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Prague">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Riga">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Rome">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/San_Marino">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Sarajevo">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Skopje">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Sofia">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Stockholm">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Tallinn">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Tirane">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Vaduz">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Vatican">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Vienna">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Vilnius">
+		<st_offset>+02:00</st_offset>
+		<dst_offset>+03:00</dst_offset>
+		<dst_start>M03W-1D0T03:00</dst_start>
+		<dst_end>M10W-1D0T04:00</dst_end>
+	</zone>
+	<zone id="Europe/Warsaw">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Zagreb">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Europe/Zurich">
+		<st_offset>+01:00</st_offset>
+		<dst_offset>+02:00</dst_offset>
+		<dst_start>M03W-1D0T02:00</dst_start>
+		<dst_end>M10W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Indian/Antananarivo">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Indian/Chagos">
+		<st_offset>+06:00</st_offset>
+	</zone>
+	<zone id="Indian/Christmas">
+		<st_offset>+07:00</st_offset>
+	</zone>
+	<zone id="Indian/Cocos">
+		<st_offset>+06:30</st_offset>
+	</zone>
+	<zone id="Indian/Comoro">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Indian/Kerguelen">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Indian/Mahe">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Indian/Maldives">
+		<st_offset>+05:00</st_offset>
+	</zone>
+	<zone id="Indian/Mauritius">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Indian/Mayotte">
+		<st_offset>+03:00</st_offset>
+	</zone>
+	<zone id="Indian/Reunion">
+		<st_offset>+04:00</st_offset>
+	</zone>
+	<zone id="Pacific/Auckland">
+		<st_offset>+12:00</st_offset>
+		<dst_offset>+13:00</dst_offset>
+		<dst_start>M09W-1D0T02:00</dst_start>
+		<dst_end>M04W+1D0T03:00</dst_end>
+	</zone>
+	<zone id="Pacific/Efate">
+		<st_offset>+11:00</st_offset>
+	</zone>
+	<zone id="Pacific/Fakaofo">
+		<st_offset>-10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Fiji">
+		<st_offset>+12:00</st_offset>
+		<dst_offset>+13:00</dst_offset>
+		<dst_start>M10W-2D0T02:00</dst_start>
+		<dst_end>M01W-1D0T03:00</dst_end>
+	</zone>
+	<zone id="Pacific/Funafuti">
+		<st_offset>+12:00</st_offset>
+	</zone>
+	<zone id="Pacific/Guadalcanal">
+		<st_offset>+11:00</st_offset>
+	</zone>
+	<zone id="Pacific/Guam">
+		<st_offset>+10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Honolulu">
+		<st_offset>-10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Nauru">
+		<st_offset>+12:00</st_offset>
+	</zone>
+	<zone id="Pacific/Niue">
+		<st_offset>-11:00</st_offset>
+	</zone>
+	<zone id="Pacific/Norfolk">
+		<st_offset>+11:30</st_offset>
+	</zone>
+	<zone id="Pacific/Noumea">
+		<st_offset>+11:00</st_offset>
+	</zone>
+	<zone id="Pacific/Palau">
+		<st_offset>+09:00</st_offset>
+	</zone>
+	<zone id="Pacific/Pitcairn">
+		<st_offset>-08:00</st_offset>
+	</zone>
+	<zone id="Pacific/Port_Moresby">
+		<st_offset>+10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Rarotonga">
+		<st_offset>-10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Saipan">
+		<st_offset>+10:00</st_offset>
+	</zone>
+	<zone id="Pacific/Samoa">
+		<st_offset>-11:00</st_offset>
+	</zone>
+	<zone id="Pacific/Tarawa">
+		<st_offset>+12:00</st_offset>
+	</zone>
+	<zone id="Pacific/Tongatapu">
+		<st_offset>+13:00</st_offset>
+	</zone>
+	<zone id="Pacific/Wallis">
+		<st_offset>+12:00</st_offset>
+	</zone>
+	<zone id="US/Samoa">
+		<st_offset>-11:00</st_offset>
+	</zone>
+</timezones>
